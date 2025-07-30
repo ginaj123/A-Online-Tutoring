@@ -1,2 +1,112 @@
 # A-Online-Tutoring
-hello
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tuition Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-color: #f8f9fa;
+    }
+    header, footer {
+      background-color: #004080;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      color: #004080;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    .cta-button {
+      display: inline-block;
+      background-color: #004080;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 1rem;
+    }
+    .contact-info p {
+      margin: 0.5rem 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tuition Hub</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="home">
+      <h2>Welcome to Tuition Hub</h2>
+      <p>Expert tuition in English and Maths for primary and secondary students aged 6 to 18.</p>
+      <a href="https://your-lessonspace-link.com" class="cta-button" target="_blank">Join Your Lesson</a>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        At Tuition Hub, we provide tailored English and Maths support for primary and secondary students aged 6 to 18. 
+        Our approach focuses on building strong foundational skills, boosting confidence, and encouraging independent thinking. 
+        Lessons are fully personalised to meet each student’s learning style and academic goals, whether they’re catching up, staying on track, or aiming for top results. 
+        With interactive, engaging sessions delivered online through Lessonspace, we make learning accessible, effective, and enjoyable.
+      </p>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <ul>
+        <li>1-to-1 online tuition in English and Maths</li>
+        <li>Support for KS1, KS2, KS3, GCSE, and 11+</li>
+        <li>Homework help and topic revision</li>
+        <li>Exam preparation and practice papers</li>
+        <li>Confidence building and study skills</li>
+        <li>Progress tracking and regular feedback</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:gina.juty@gmail.com">gina.juty@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:07894525567">07894 525567</a></p>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Tuition Hub. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
